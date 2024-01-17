@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" modified="2024-01-07T23:17:13.907Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="SSNthfbYTBMhPao-d2_J" version="22.1.17" type="device">
+  <diagram name="Page-1" id="v4Nkw6FbzhfIRgd4vogG">
+    <mxGraphModel dx="1949" dy="1829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3GH_8sw6vbguckBh2B6c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3GH_8sw6vbguckBh2B6c-1" target="3GH_8sw6vbguckBh2B6c-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-1" value="Main()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-2" value="again=&quot;y&quot;,&lt;br&gt;score=&quot;0&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3GH_8sw6vbguckBh2B6c-2" target="3GH_8sw6vbguckBh2B6c-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="462.52" y="65.31999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3GH_8sw6vbguckBh2B6c-6" target="3GH_8sw6vbguckBh2B6c-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3GH_8sw6vbguckBh2B6c-6" target="3GH_8sw6vbguckBh2B6c-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="1060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="120" />
+              <mxPoint x="10" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-6" value="Again == &quot;y&quot;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="80" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-7" value="Filename = input(&quot;Press Enter to start a standard puzzle or enter name of file to load: &quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="230" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-9" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3GH_8sw6vbguckBh2B6c-7" target="3GH_8sw6vbguckBh2B6c-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="420" as="sourcePoint" />
+            <mxPoint x="460" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3GH_8sw6vbguckBh2B6c-11" target="3GH_8sw6vbguckBh2B6c-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3GH_8sw6vbguckBh2B6c-11" target="3GH_8sw6vbguckBh2B6c-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-11" value="len(Filename) &amp;gt; 0?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="390" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3GH_8sw6vbguckBh2B6c-16" target="3GH_8sw6vbguckBh2B6c-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="261" y="549" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-16" value="MyPuzzle = Puzzle(Filename + &quot;.txt&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="3GH_8sw6vbguckBh2B6c-18" target="3GH_8sw6vbguckBh2B6c-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="735" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="736" y="560" />
+              <mxPoint x="575" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-18" value="MyPuzzle = Puzzle(8, int(8 * 8 * 0.6))" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="405" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-20" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-21" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-22" value="Score = MyPuzzle.AttemptPuzzle()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="510" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3GH_8sw6vbguckBh2B6c-26" target="3GH_8sw6vbguckBh2B6c-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="770" />
+              <mxPoint x="460" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-26" value="print(&quot;Puzzle finished. Your score was: &quot; + str(Score))" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="600" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.473;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3GH_8sw6vbguckBh2B6c-22" target="3GH_8sw6vbguckBh2B6c-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3GH_8sw6vbguckBh2B6c-28" target="3GH_8sw6vbguckBh2B6c-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="950" y="735" />
+              <mxPoint x="950" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-28" value="Again = input(&quot;Do another puzzle? &quot;).lower()" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="690" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-31" value="&quot;Y&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-32" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3GH_8sw6vbguckBh2B6c-34" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
