@@ -80,6 +80,18 @@ class Puzzle():
                 else:
                     C = BlockedCell()
                 self.__Grid.append(C)
+            # WILDCARD -------------
+            wildcard_count = 0
+            while wildcard_count != 3:
+                random_cell = random.randint(0, len(self.__Grid))
+                grid_space = self.__Grid[random_cell]
+
+                if grid_space.GetSymbol() != "*":
+                    grid_space.ChangeSymbolInCell("*")
+                    wildcard_count += 1
+            # WILDCARD -------------
+
+
             self.__AllowedPatterns = []
             self.__AllowedSymbols = []
             QPattern = Pattern("Q", "QQ**Q**QQ")
@@ -273,8 +285,6 @@ class Puzzle():
         else:
             raise IndexError()
 
-    def Undo_Move(self):
-        ...
 
     def CheckforMatchWithPattern(self, Row, Column):
         """
@@ -465,15 +475,20 @@ class Pattern():
             returns true or false depending on if the pattern has a match
 
         """
-        if SymbolPlaced != self.__Symbol:
+        # WILDCARD ------------------
+        if SymbolPlaced != self.__Symbol and self.__Symbol != "*":
             return False
+
         for Count in range(0, len(self.__PatternSequence)):
             try:
-                if self.__PatternSequence[Count] == self.__Symbol and PatternString[Count] != self.__Symbol:
+                if (self.__PatternSequence[Count] == self.__Symbol or self.__PatternSequence[Count] == "*") and (PatternString[Count] != self.__Symbol and self.__Symbol != "*"):
                     return False
+
             except Exception as ex:
                 print(f"EXCEPTION in MatchesPattern: {ex}")
+
         return True
+        # WILDCARD ------------------
 
     def GetPatternSequence(self):
         """
