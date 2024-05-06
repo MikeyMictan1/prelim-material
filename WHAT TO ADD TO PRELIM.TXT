@@ -1,6 +1,25 @@
--undo move
--blow up blocked cell
--allow rotated patterns
--add a new symbol/letter
+-undo move \
+-blow up blocked cell \
+-allow rotated patterns \
+-add a new symbol/letter \
 -save the game
--add a wildcard
+-add a wildcard \
+-make a pattern blocked once its made, so it cant be altered
+-fix undo to make sure a pattern isnt blocked after an undo
+
+
+
+
+SymbolToUse = "Q"
+PatternString = "QQ**Q**QQ"
+
+# THE ACTUAL LEGIT CORRECT PATTERN
+self.__Symbol = "Q"
+self.__PatternSequence = "QQ**Q**QQ"
+# THE ACTUAL LEGIT CORRECT PATTERN
+
+SymbolPlaced = SYMBOL THE PLAYER PLACED
+PatternString = THE 3*3 GRID PATTERN
+
+
+
